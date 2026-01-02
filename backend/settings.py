@@ -33,7 +33,7 @@ INSTALLED_APPS = [
     'payment',
 ]
 
-PAYTECH_API_KEY = env.str("PAYTECH_API_KEY")  # contact with @muhammadali_me for getting api key
+PAYTECH_LICENSE_API_KEY = "d8806bbf-0c01-4cd4-a347-27caf7858ff2" # you can get your api key from https://docs.pay-tech.uz/console
 
 # payme settings
 PAYME_ID = env.str("PAYME_ID")
